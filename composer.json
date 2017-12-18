@@ -1,0 +1,30 @@
+{
+	"name": "kitlabs/kit-jpush-bundle",
+	"type": "symfony-bundle",
+	"description": "Easily use jpush sdk in Symfony",
+	"keywords": ["jpush", "jpush bundle", "push", "JPush APIs"],
+	"homepage": "https://github.com/kitlabs-cn/KitJpushBundle",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "lcp0578",
+			"email": "lcp0578@gmail.com",
+			"homepage": "https://github.com/lcp0578"
+		},
+		{
+			"name": "The contributors",
+			"homepage": "https://github.com/kitlabs-cn/KitJpushBundle/contributors"
+		}
+	],
+	"support": {
+		"email": "lcp0578@gmail.com"
+	},
+	"require": {
+		"jpush/jpush": ">=3.5"
+	},
+	"autoload": {
+		 "psr-4": {
+            "Kit\\Bundle\\PayBundle\\": ""
+        }
+	}
+}
