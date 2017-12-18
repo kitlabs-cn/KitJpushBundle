@@ -51,8 +51,8 @@ in the `app/AppKernel.php` file of your project:
 	    client:
 	        client_default:
 	            app_key: *******
-	            master_secret: ****
-			client_another:
+	            master_secret: *****
+            client_another:
 	            app_key: *******
 	            master_secret: ****
 	        
